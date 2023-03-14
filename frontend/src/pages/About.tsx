@@ -1,8 +1,8 @@
 import * as React from 'react';
 
-interface IAboutProps {}
+interface Props {}
 
-const About: React.FunctionComponent<IAboutProps> = (props) => {
+const About: React.FunctionComponent<Props> = (props) => {
     return <div>ABOUT</div>;
 };
 

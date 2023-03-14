@@ -3,16 +3,16 @@ import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
 import { Outlet } from 'react-router-dom';
 
-interface ILayoutProps {}
+interface Props {}
 
-const Layout: React.FunctionComponent<ILayoutProps> = (props) => {
+const MainLayout: React.FunctionComponent<Props> = (props) => {
     return (
-        <div className="App">
+        <>
             <Navbar />
             <Outlet />
-            <Footer />
-        </div>
+            {/* <Footer /> */}
+        </>
     );
 };
 
-export default Layout;
+export default MainLayout;

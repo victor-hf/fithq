@@ -2,11 +2,11 @@
 module.exports = {
     content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
     theme: {
-        screens: {},
-        colors: {},
-        fontFamily: {},
+        // screens: {},
+        // colors: {},
+        // fontFamily: {},
         extend: {
-            spacing: {},
+            // spacing: {},
         },
     },
     plugins: [],
