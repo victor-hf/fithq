@@ -6,7 +6,7 @@ interface Props {}
 
 const ConnectedApps: React.FunctionComponent<Props> = (props) => {
     return (
-        <div className="flex flex-wrap justify-start [&>*]:mb-10 [&>*]:mr-10">
+        <div className="flex flex-wrap justify-start [&>*]:mb-10 [&>*]:mr-10 w-full">
             {connectedApps.map((connectedApp) => {
                 return (
                     <ConnectedApp

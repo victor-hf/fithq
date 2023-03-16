@@ -33,7 +33,8 @@ interface IAppProps {}
 
 const App: React.FunctionComponent<IAppProps> = (props) => {
     return (
-        <div className="h-full App">
+        // <div className="h-full App">
+        <div className="App">
             <RouterProvider router={router} />
         </div>
     );

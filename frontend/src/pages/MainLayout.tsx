@@ -9,7 +9,10 @@ const MainLayout: React.FunctionComponent<Props> = (props) => {
     return (
         <>
             <Navbar />
-            <Outlet />
+            <div id="main-container" className="w-screen h-screen px-12 mt-6">
+                <Outlet />
+            </div>
+
             {/* <Footer /> */}
         </>
     );

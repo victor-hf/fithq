@@ -6,10 +6,10 @@ interface Props {}
 
 const AppSettingsLayout: React.FunctionComponent<Props> = (props) => {
     return (
-        <div className="flex w-screen h-screen my-6 ">
+        <div className="flex w-full h-screen">
             <div
                 id="side-panel"
-                className="mx-12 border shadow-md h-5/6 min-w-[250px] border-slate-300/30 rounded-xl"
+                className="mr-12 border shadow-md h-5/6 min-w-[250px] border-slate-300/30 rounded-xl"
             >
                 <nav className="flex flex-col p-4 [&>*]:my-2">
                     <NavLinkCustom to={'data-sources'} innerHTML="Data sources" type="side-panel" />
@@ -20,7 +20,7 @@ const AppSettingsLayout: React.FunctionComponent<Props> = (props) => {
                     />
                 </nav>
             </div>
-            <div id="settings" className="max-w-5/6">
+            <div id="settings" className="">
                 <Outlet />
             </div>
         </div>
